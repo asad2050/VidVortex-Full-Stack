@@ -49,9 +49,11 @@ CLOUDINARY_API_SECRET=your_api_secret
 ```
 
 ### 3. Seed the Database
+To quickly populate the application with sample data (Users, Channels, and Videos), run the following command. This is highly recommended for first-time use to see the app in its fully functional state:
 ```bash
 node seed.js
 ```
+*(Note: If you have already removed the seed script for production, ensure you have manually created or imported your initial collections.)*
 
 ### 4. Frontend Setup
 ```bash
