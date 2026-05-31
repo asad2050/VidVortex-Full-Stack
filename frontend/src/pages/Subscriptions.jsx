@@ -26,8 +26,8 @@ const Subscriptions = () => {
           API.get('/channels/subscribed'),
           API.get('/videos/subscribed')
         ]);
-        setChannels(channelsRes.data);
-        setVideos(videosRes.data);
+        setChannels(Array.isArray(channelsRes.data) ? channelsRes.data : []);
+        setVideos(Array.isArray(videosRes.data) ? videosRes.data : []);
       } catch (err) {
         console.error('Error fetching subscriptions:', err);
       } finally {

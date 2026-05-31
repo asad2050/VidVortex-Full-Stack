@@ -21,7 +21,7 @@ const LikedVideos = () => {
       try {
         setLoading(true);
         const response = await API.get('/videos/liked');
-        setVideos(response.data);
+        setVideos(Array.isArray(response.data) ? response.data : []);
       } catch (err) {
         console.error('Error fetching liked videos:', err);
       } finally {

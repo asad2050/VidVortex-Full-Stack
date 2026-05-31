@@ -57,7 +57,8 @@ const ChannelPage = () => {
   }, [id, user?.channelId, isLoggedIn, navigate]);
 
   const handleUploadSuccess = (newVideo) => {
-    setChannel({ ...channel, videos: [newVideo, ...channel.videos] });
+    const videos = Array.isArray(channel.videos) ? channel.videos : [];
+    setChannel({ ...channel, videos: [newVideo, ...videos] });
   };
 
   const handleUpdateChannel = (updatedChannel) => {
@@ -98,9 +99,10 @@ const ChannelPage = () => {
   };
 
   const handleEditSuccess = (updatedVideo) => {
+    const videos = Array.isArray(channel.videos) ? channel.videos : [];
     setChannel({
       ...channel,
-      videos: channel.videos.map(v => v._id === updatedVideo._id ? updatedVideo : v)
+      videos: videos.map(v => v._id === updatedVideo._id ? updatedVideo : v)
     });
   };
 
@@ -108,9 +110,10 @@ const ChannelPage = () => {
     if (window.confirm('Are you sure you want to delete this video?')) {
       try {
         await API.delete(`/videos/${videoId}`);
+        const videos = Array.isArray(channel.videos) ? channel.videos : [];
         setChannel({
           ...channel,
-          videos: channel.videos.filter(v => v._id !== videoId)
+          videos: videos.filter(v => v._id !== videoId)
         });
       } catch (err) {
         console.error('Delete error:', err);

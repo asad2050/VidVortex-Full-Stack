@@ -12,7 +12,7 @@ const CommentSection = ({ videoId, initialComments = [] }) => {
   const handleAddComment = async (text) => {
     try {
       const response = await API.post(`/comments/${videoId}`, { text });
-      setComments(response.data);
+      setComments(Array.isArray(response.data) ? response.data : []);
     } catch (err) {
       console.error('Add comment error:', err);
     }
@@ -21,7 +21,7 @@ const CommentSection = ({ videoId, initialComments = [] }) => {
   const handleEditComment = async (commentId, text) => {
     try {
       const response = await API.put(`/comments/${videoId}/${commentId}`, { text });
-      setComments(response.data);
+      setComments(Array.isArray(response.data) ? response.data : []);
     } catch (err) {
       console.error('Edit comment error:', err);
     }
@@ -30,7 +30,7 @@ const CommentSection = ({ videoId, initialComments = [] }) => {
   const handleDeleteComment = async (commentId) => {
     try {
       const response = await API.delete(`/comments/${videoId}/${commentId}`);
-      setComments(response.data);
+      setComments(Array.isArray(response.data) ? response.data : []);
     } catch (err) {
       console.error('Delete comment error:', err);
     }

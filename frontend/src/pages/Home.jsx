@@ -30,7 +30,7 @@ const Home = () => {
         if (queryString) url += `?${queryString}`;
         
         const response = await API.get(url);
-        setVideos(response.data);
+        setVideos(Array.isArray(response.data) ? response.data : []);
       } catch (err) {
         console.error('Error fetching videos:', err);
       } finally {

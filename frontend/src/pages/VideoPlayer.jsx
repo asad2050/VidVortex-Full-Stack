@@ -24,7 +24,8 @@ const VideoPlayer = () => {
         setVideo(videoRes.data);
         
         const relatedRes = await API.get('/videos');
-        setRelatedVideos(relatedRes.data.filter(v => v._id !== id));
+        const relatedData = Array.isArray(relatedRes.data) ? relatedRes.data : [];
+        setRelatedVideos(relatedData.filter(v => v._id !== id));
       } catch (err) {
         console.error('Error fetching video data:', err);
       } finally {

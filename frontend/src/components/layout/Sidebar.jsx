@@ -23,9 +23,10 @@ const Sidebar = () => {
       const fetchSubscriptions = async () => {
         try {
           const response = await API.get('/channels/subscribed');
-          setSubscribedChannels(response.data);
+          setSubscribedChannels(Array.isArray(response.data) ? response.data : []);
         } catch (err) {
           console.error('Error fetching sidebar subscriptions:', err);
+          setSubscribedChannels([]);
         }
       };
       fetchSubscriptions();
