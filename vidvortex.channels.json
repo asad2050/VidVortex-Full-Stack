@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "channelName": "Learn on The Way",
+  "handle": "@testchannel",
+  "owner": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "description": "The place to learn about science.",
+  "channelBanner": "https://res.cloudinary.com/online-shop-web/image/upload/v1780234374/youtube-clone/images/wg5u8ueyhc9ivzylkjb3.jpg",
+  "channelAvatar": "https://res.cloudinary.com/online-shop-web/image/upload/v1780234374/youtube-clone/images/ju6apqxpcgbrzv3yf6vi.jpg",
+  "subscribers": [
+    {
+      "$oid": "6a1c065b5bdd080c3a7234ec"
+    }
+  ],
+  "videos": [
+    {
+      "$oid": "6a1c05125bdd080c3a7233f0"
+    },
+    {
+      "$oid": "6a1c4067bf29a4e45e6e3c63"
+    },
+    {
+      "$oid": "6a1c40b5bf29a4e45e6e3c64"
+    },
+    {
+      "$oid": "6a1c41e2bf29a4e45e6e3c65"
+    },
+    {
+      "$oid": "6a1c420ebf29a4e45e6e3c66"
+    },
+    {
+      "$oid": "6a1c4234bf29a4e45e6e3c67"
+    },
+    {
+      "$oid": "6a1c4251bf29a4e45e6e3c68"
+    },
+    {
+      "$oid": "6a1c42d0bf29a4e45e6e3c6b"
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-05-31T09:23:59.501Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T14:16:48.670Z"
+  },
+  "__v": 2
+}]

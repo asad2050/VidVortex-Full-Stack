@@ -1,0 +1,249 @@
+[{
+  "_id": {
+    "$oid": "6a1c05125bdd080c3a7233f0"
+  },
+  "title": "A Stunning Satellite View",
+  "description": "Experience our blue planet like never before. This stunning continuous rotation shows Earth's oceans, continents, and cloud formations from the perspective of low Earth orbit. A perfect visual for studying geography or simply taking a moment to relax.",
+  "thumbnailUrl": "https://res.cloudinary.com/online-shop-web/image/upload/v1780221215/youtube-clone/images/abz3bve9drcp5tecpeio.png",
+  "videoUrl": "https://res.cloudinary.com/online-shop-web/video/upload/v1780221215/youtube-clone/videos/i5c3tmhtd6p6ki2wdjjy.mp4",
+  "category": "Science",
+  "channelId": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "channelName": "Test Channel",
+  "uploader": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "views": 6,
+  "likes": [
+    {
+      "$oid": "6a1c065b5bdd080c3a7234ec"
+    }
+  ],
+  "dislikes": [
+    {
+      "$oid": "6a1bfe2fec56418030b160be"
+    }
+  ],
+  "comments": [
+    {
+      "userId": {
+        "$oid": "6a1bfe2fec56418030b160be"
+      },
+      "username": "testuser",
+      "text": "best",
+      "_id": {
+        "$oid": "6a1c058b5bdd080c3a723419"
+      },
+      "createdAt": {
+        "$date": "2026-05-31T09:55:23.478Z"
+      },
+      "updatedAt": {
+        "$date": "2026-05-31T09:55:23.478Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-05-31T09:53:22.058Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T14:15:39.508Z"
+  },
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "6a1c4067bf29a4e45e6e3c63"
+  },
+  "title": "Build a React App Fast: 10x Developer Speed",
+  "description": "Watch how fast you can build dynamic UIs when you master keyboard shortcuts and clean architecture. In this quick snippet, we dive into writing robust React components without ever touching the mouse. Perfect for developers looking to optimize their workflow.",
+  "thumbnailUrl": "https://res.cloudinary.com/online-shop-web/image/upload/v1780236402/youtube-clone/images/azsmgqwbskhalgjgtsjj.png",
+  "videoUrl": "https://res.cloudinary.com/online-shop-web/video/upload/v1780236405/youtube-clone/videos/ayswkwfjef1gkdrs9cdx.mp4",
+  "category": "Web Development",
+  "channelId": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "channelName": "Learn on The Way",
+  "uploader": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "views": 0,
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-05-31T14:06:31.092Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T14:09:40.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c40b5bf29a4e45e6e3c64"
+  },
+  "title": "Visualizing Graph Algorithms in 60 Seconds",
+  "description": "A quick, visual breakdown of how graph nodes connect and traverse paths. Whether you are studying for your next technical interview or trying to understand complex network routing, this visual guide makes Data Structures easy to understand.",
+  "thumbnailUrl": "https://res.cloudinary.com/online-shop-web/image/upload/v1780236482/youtube-clone/images/gu2tomk2kbocmejlo3fv.png",
+  "videoUrl": "https://res.cloudinary.com/online-shop-web/video/upload/v1780236484/youtube-clone/videos/w6mv15wsn6fccniqcteq.mp4",
+  "category": "Data Structures",
+  "channelId": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "channelName": "Learn on The Way",
+  "uploader": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "views": 0,
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-05-31T14:07:49.451Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T14:09:48.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c41e2bf29a4e45e6e3c65"
+  },
+  "title": "Cinematic Drone Flight: The Edge of the World",
+  "description": "Experience breathtaking views captured from above. Take a moment to relax and enjoy these incredible, sweeping landscapes from a bird's-eye perspective. Shot entirely on a DJI Mavic pro in stunning high definition.",
+  "thumbnailUrl": "https://res.cloudinary.com/online-shop-web/image/upload/v1780236782/youtube-clone/images/uhxk2ao4odi0etp1eiyw.png",
+  "videoUrl": "https://res.cloudinary.com/online-shop-web/video/upload/v1780236785/youtube-clone/videos/wnehmiwdz3weqxwtymws.mp4",
+  "category": "Travel",
+  "channelId": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "channelName": "Learn on The Way",
+  "uploader": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "views": 0,
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-05-31T14:12:50.975Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T14:12:50.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c420ebf29a4e45e6e3c66"
+  },
+  "title": "Night Lo-Fi Acoustic Vibes",
+  "description": "Chill acoustic strumming and lo-fi beats to help you focus, study, or relax. Let the smooth rhythm and vintage sound guide your late-night coding sessions or study marathons.",
+  "thumbnailUrl": "https://res.cloudinary.com/online-shop-web/image/upload/v1780236826/youtube-clone/images/qe8bt6dopnbla3pbtxyt.png",
+  "videoUrl": "https://res.cloudinary.com/online-shop-web/video/upload/v1780236828/youtube-clone/videos/ngywd3zf0xcazomlrsup.mp4",
+  "category": "Music",
+  "channelId": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "channelName": "Learn on The Way",
+  "uploader": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "views": 0,
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-05-31T14:13:34.505Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T14:13:34.505Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c4234bf29a4e45e6e3c67"
+  },
+  "title": "Retro Arcade Classic - Flawless Speedrun",
+  "description": "Throwback to the absolute golden age of gaming! Check out this classic pixel-art gameplay footage. It is all about quick reflexes, pattern memorization, and making sure every single frame counts.",
+  "thumbnailUrl": "https://res.cloudinary.com/online-shop-web/image/upload/v1780236864/youtube-clone/images/v0uhiuidr7is9yk8gcsm.png",
+  "videoUrl": "https://res.cloudinary.com/online-shop-web/video/upload/v1780236867/youtube-clone/videos/ji6tynufajjyx5v2ugep.mp4",
+  "category": "Gaming",
+  "channelId": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "channelName": "Learn on The Way",
+  "uploader": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "views": 0,
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-05-31T14:14:12.656Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T14:14:12.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c4251bf29a4e45e6e3c68"
+  },
+  "title": "Compound Interest Explained: Watch Your Wealth Grow",
+  "description": "The secret to long-term investing isn't timing the market, it is time in the market. See exactly how small, consistent daily investments stack up over time to build massive generational wealth.",
+  "thumbnailUrl": "https://res.cloudinary.com/online-shop-web/image/upload/v1780236894/youtube-clone/images/y6fxjthnvrt4z6rw1vtl.png",
+  "videoUrl": "https://res.cloudinary.com/online-shop-web/video/upload/v1780236896/youtube-clone/videos/ut3p0p7zteesaxza2jzk.mp4",
+  "category": "Finance",
+  "channelId": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "channelName": "Learn on The Way",
+  "uploader": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "views": 0,
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-05-31T14:14:41.851Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T14:14:41.851Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c42d0bf29a4e45e6e3c6b"
+  },
+  "title": "Late Night Coding Session",
+  "description": "Just a raw, unedited glimpse into a late-night debugging and development session. Watch the syntax highlighting glow as we refactor some complex JavaScript logic. Perfect background visuals for your own coding marathons.",
+  "thumbnailUrl": "https://res.cloudinary.com/online-shop-web/image/upload/v1780237022/youtube-clone/images/mpc3m52hzlydkdnu0q4f.png",
+  "videoUrl": "https://res.cloudinary.com/online-shop-web/video/upload/v1780237023/youtube-clone/videos/wj2gk3d4regjop5dbysd.mp4",
+  "category": "JavaScript",
+  "channelId": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "channelName": "Learn on The Way",
+  "uploader": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "views": 0,
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-05-31T14:16:48.656Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T14:16:48.656Z"
+  },
+  "__v": 0
+}]

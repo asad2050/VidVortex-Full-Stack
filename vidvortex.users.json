@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6a1bfe2fec56418030b160be"
+  },
+  "username": "testuser",
+  "email": "test@example.com",
+  "password": "$2b$10$UW1qpR51Czns53v8vSVAve3lNHWHbIE4hQzrMm4J3ya5bxmg2PJZy",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=testuser",
+  "channelId": {
+    "$oid": "6a1bfe2fec56418030b160bf"
+  },
+  "createdAt": {
+    "$date": "2026-05-31T09:23:59.473Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T09:23:59.521Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c065b5bdd080c3a7234ec"
+  },
+  "username": "test2",
+  "email": "test2@example.com",
+  "password": "$2b$10$4RerMBuTQsaOuSZMBR.5G.oX2p55RIesWjeHSRus4pi10.MoOxck6",
+  "avatar": "",
+  "channelId": null,
+  "createdAt": {
+    "$date": "2026-05-31T09:58:51.371Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T10:24:28.535Z"
+  },
+  "__v": 0
+}]
