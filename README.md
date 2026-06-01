@@ -2,6 +2,8 @@
 
 [View on GitHub](https://github.com/asad2050/VidVortex-Full-Stack)
 
+[Live Demo](https://vid-vortex-full-stack.vercel.app/)
+
 A full-stack YouTube clone with viewer and creator features, built with the MERN stack.
 
 ## 🚀 Features
@@ -53,33 +55,33 @@ To quickly populate the application with sample data (Users, Channels, and Video
 The database consists of three core collections: `users`, `channels`, and `videos`. To test the application locally, you can easily import the provided sample datasets into your MongoDB instance using **MongoDB Compass**.
 
 ### Prerequisites
-Make sure you have downloaded the three JSON seed files located in the project:
-* `users.json`
-* `channels.json`
-* `videos.json`
+Make sure you have downloaded the three JSON seed files located in the project folder:
+* `vidvortex.users.json`
+* `vidvortex.channels.json`
+* `vidvortex.videos.json`
 
 ### Step-by-Step Import Guide
 
 1. Open **MongoDB Compass** and connect to your local database cluster.
-2. Create a new database named **`vidvortex`** (or select your existing database).
+2. Create a new database named **`vidvortex`** (or select it if it already exists).
 3. Follow these steps for each of the three collections:
 
    #### 1. Import Users
    * Click **Create Collection** and name it `users`.
    * Open the `users` collection, and click the **Add Data** dropdown button near the top.
    * Select **Import JSON or CSV file**.
-   * Browse and select your local `users.json` file. Ensure the file type is set to **JSON**.
+   * Browse and select your local `vidvortex.users.json` file. Ensure the file type is set to **JSON**.
    * Click **Import**.
 
    #### 2. Import Channels
    * Click the **`+`** icon next to your database name to create a new collection named `channels`.
    * Open the `channels` collection, click **Add Data** -> **Import JSON or CSV file**.
-   * Choose the `channels.json` file and click **Import**.
+   * Choose the `vidvortex.channels.json` file and click **Import**.
 
    #### 3. Import Videos
    * Create a final collection named `videos`.
    * Open it, click **Add Data** -> **Import JSON or CSV file**.
-   * Choose the `videos.json` file and click **Import**.
+   * Choose the `vidvortex.videos.json` file and click **Import**.
 
 ⚠️ **Important Note:** To test authenticated user features seamlessly, make sure you complete the database import before attempting to log into the frontend.
 
